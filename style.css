@@ -27,6 +27,12 @@ i
     justify-content: space-between;
 }
 
+.opicoes
+{
+    display: flex;
+    gap: 25px;
+}
+
 #conteudo_p
 {
     color: red;
