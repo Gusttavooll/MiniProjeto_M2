@@ -29,7 +29,7 @@ let aceitarInf = () => {
 
     criarpublicao();
 };
-// ERROR N ESTA APARECENDO O NOME NA HORA DA CRIAÇÃO
+
 let criarpublicao = () => {
     publicao.innerHTML += `
     <div>
