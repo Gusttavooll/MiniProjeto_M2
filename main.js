@@ -11,8 +11,8 @@ form.addEventListener("submit", (e) => {
 });
 
 let formValidation = () => {
-    if(input.value === "") {
-        conteudo_p.innerHTML = "Adicione Algo antes de enviar";
+    if(input.value === "" || input.value === inf.text) {
+        conteudo_p.innerHTML = "Esta em branco || Não pode repitido ";
         console.log("Falhou");
     }else{
         console.log("Enviou!");
